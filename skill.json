@@ -1,0 +1,23 @@
+{
+  "name": "genpark-personalized-upsell-recommender-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Personalized items recommendation upsell picker.",
+  "author": "genpark",
+  "category": "retention",
+  "tags": [
+    "upsell",
+    "recommendations"
+  ],
+  "inputs": {
+    "last_item_category": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "recommendations": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
